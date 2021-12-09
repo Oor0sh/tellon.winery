@@ -1,0 +1,36 @@
+<urlset>
+	<url>
+		<loc>https://oor0sh.github.io/tellon.winery/index.html</loc>
+		<lastmod> 2021-12-01 </lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1</priority>
+	</url>
+
+	<url>
+		<loc>https://oor0sh.github.io/tellon.winery/catalogue.html</loc>
+		<lastmod> 2021-12-01 </lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.95</priority>
+	</url>
+
+	<url>
+		<loc>https://oor0sh.github.io/tellon.winery/gallery.html</loc>
+		<lastmod> 2021-12-01 </lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+		</url>
+
+	<url>
+		<loc>https://oor0sh.github.io/tellon.winery/about.html</loc>
+		<lastmod> 2021-12-01 </lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.6</priority>
+		</url>
+
+	<url>
+		<loc>https://oor0sh.github.io/tellon.winery/about_author.html</loc>
+		<lastmod> 2021-12-01 </lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.5</priority>
+	</url>
+</urlset>
