@@ -291,6 +291,12 @@ button{
 
 .text{
 	float: left;
+	width: 60%;
+	font-size: 40px;
+}
+
+.text2{
+	float: left;
 	width: 65%;
 	font-size: 40px;
 }
