@@ -262,6 +262,7 @@ button{
 #order input[type="email"]{
 	width: 100%;
 	height: 30px;
+	font-size: 23px;
 	font-family: 'Poiret One', cursive;
 }
 
