@@ -234,6 +234,59 @@ button{
 	font-family: 'Poiret One', cursive;
 }
 
+#formBg{
+	background: url("../images/galleryCover.jpg");
+}
+
+#formWrapper{
+	color: white;
+	width: 80%;
+	height: 85vh;
+	margin: 0px auto;
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+#formWrapper h1{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#order input[type="text"]{
+	width: 100%;
+	height: 30px;
+	font-size: 23px;
+	font-family: 'Poiret One', cursive;
+}
+
+#order input[type="email"]{
+	width: 100%;
+	height: 30px;
+	font-family: 'Poiret One', cursive;
+}
+
+#order input[type="submit"]{
+	width: 70%;
+	height: 50px;
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	margin-left: 15%;
+	margin-top: 10%;
+}
+
+#order select{
+	width: 100%;
+	height: 30px;
+	font-size: 16px;
+	font-family: 'Poiret One', cursive;	
+}
+
+#order{
+	width: 60%;
+	height: auto;
+	margin: 0px auto;
+}
+
 #tellonBlanco{
 	width: 100%;
 	height: 100%;
