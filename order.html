@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Tellon Winery - About</title>
+			<meta charset="utf-8"/>
+			<link rel="stylesheet" href="assets/css/style.css"/>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"/>
+			<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+		</head>
+
+		<body id="formBg">	
+			<header>
+				<div id="nav" class="borderBottom">
+					<a id="a" href="index.html"><div id="logo"></div></a>
+						<nav>
+							<div id="menu">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="catalogue.html">Catalogue</a></li>
+									<li><a href="gallery.html">Gallery</a></li>
+									<li><a href="about.html">About us</a></li>
+									<li><a href="about_author.html">Author</a></li>
+								</ul>
+						</div>
+					</nav>
+					<div id="cleaner"></div>
+				</div>
+				</header>
+
+				<div id="formWrapper">
+					<h1>Order</h1>
+					<form id="order" action="#">
+						<label for="name">Name:</label>
+						<input type="text" id="name" />
+						<label for="surname">Surname:</label>
+						<input type="text" id="surname"/>
+						<label for="email">Email:</label>
+						<input type="email" id="email"/>
+						<label for="wines">Choose your wine:</label>
+						<select id="wines">
+
+							<option selected="" hidden="">Choose here...</option>
+							<optgroup label="White Wine">
+								<option>Tellon Blanco</option>
+								<option>Sauvignon Blanc</option>
+								<option>Chenin Blanc</option>
+								<option>Chardonnay</option>
+								<option>Pinot Blanc</option>
+							</optgroup>
+
+							<optgroup label="Red Wine">
+								<option>Pinot Noir</option>
+								<option>Cabernet Sauvignon</option>
+								<option>Merlot</option>
+							</optgroup>
+						</select>
+
+						<input type="submit" value="Submit order">
+
+					</form>
+				</div>
+
+				<footer id="footer" class="borderTop">
+					
+					<div id="newsletter">
+						<form id="newsletterForm" action="#">
+							<h2>Subscribe to our newsletter:</h2>
+							<label for="email">Email:</label>
+							<input type="email" name="email" id="email">
+							<input type="submit" value="Subscribe">
+						</form>
+					</div>
+
+					<div class="socials">
+
+						<h2>Find us on:</h2>
+
+						<div class="socialsItem">
+							<ul>
+								<li><a href="https://www.facebook.com/"><i class="zmdi zmdi-facebook-box"></i> Facebook</a></li>
+								<li><a href="https://twitter.com/"><i class="zmdi zmdi-twitter-box"></i> Twitter</a></li>
+								<li><a href="https://www.instagram.com/"><i class="zmdi zmdi-instagram"></i> Instagram</a></li>
+								<li><a href="https://www.instagram.com/"><i class="zmdi zmdi-rss"></i> RSS</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="cleaner"></div>
+			</footer>
+				<div class="cleaner"></div>
+		</body>
+</html>
