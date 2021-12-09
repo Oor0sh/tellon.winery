@@ -247,6 +247,10 @@ button{
 	font-size: 30px;
 }
 
+#formWrapper a{
+	color: black;
+}
+
 #formWrapper h1{
 	text-align: center;
 	margin-bottom: 30px;
