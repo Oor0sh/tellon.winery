@@ -1,0 +1,14 @@
+<rss version="2.0">
+<channel>
+	<title>Tellon Winery</title>
+		<url>https://oor0sh.github.io/tellon.winery/</url>
+			<description>Most recent news from the world of wine</description>
+				<item>
+					<title>Celebrating 400 years of existence</title>
+						<url>
+							https://oor0sh.github.io/tellon.winery/about.html
+						</url>
+							<description>We invite you to come celebrate with us!</description>
+				</item>
+	</channel>
+</rss>
