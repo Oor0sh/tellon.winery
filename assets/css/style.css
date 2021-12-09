@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poiret+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+	margin-top: 20px;
+}
+
+body{
+	font-family: 'Poiret One', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.cleaner{
+	clear: both;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+
+li{
+	list-style-type: none;
+	float: left;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 20px;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+a:hover{
+	color: #dbc19c;
+}
+
+header{
+	width: 100%;
+	height: 90px;
+}
+
+nav{
+	display: block;
+	width: 65%;
+	background-color: #1e2b1e;
+	height: 90px;
+	float: right;
+}
+
+#logo{
+	width: 220px;
+	height: 80px;
+	float: left;
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	margin: 5px 10px;
+}
+
+#menu{
+	width: 65%;
+	float: right;
+	padding: 10px;
+}
+
+#nav{
+	float: left;
+	width: 100%;
+	background-color: #1e2b1e;
+}
+
+#wrapper{
+	width: 100%;
+	height: auto;
+	background-image: url("../images/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.wrapper1{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
+}
+
+#galleryWrapper{
+	width: 95%;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	flex-direction: row;
+	max-height: 200vh;
+}
+
+.gallery img{
+	margin: 4.25%;
+	border: 3px solid #5e3f2a;
+	box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
+	max-width: 23vw;
+}
+
+#bgAbout{
+	background-image: url("../images/background6.jpg");
+}
+
+.borders{
+	border-top: 5px solid #435677;
+	border-bottom: 5px solid #435677;
+}
+
+.borderTop{
+	border-top: 5px solid #435677;
+}
+
+.borderBottom{
+	border-bottom: 5px solid #435677;
+}
+
+.content{
+	width: 90%;
+	height: 35%;
+	margin: 45px auto;
+}
+
+#catalogueBg{
+	background-image: url("../images/catalogueCover.jpg");
+	background-position: left;
+	background-attachment: fixed;
+}
+
+#catalogueWrapper{
+	width: 90%;
+	height: auto;
+	margin: 0px auto;
+	text-align: center;
+	background-position: center;
+}
+
+.catalogueContent{
+	width: 90%;
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin-left: 65px;
+}
+
+.catalogueItems{
+	width: 45%;
+	height: 300px;
+	margin: 45px 28px;
+}
+
+.catalogueImage{
+	width: 40%;
+	height: 265px;
+	float: left;
+	margin: 15px 5px;
+	border: 3px solid #5e3f2a;
+	background-color: #f2cbb1;
+	perspective: 1000px;
+}
+
+.catalogueText{
+	width: 55%;
+	height: 170px;
+	float: left;
+	margin: 60px 5px;
+}
+
+.catalogueText p{
+	margin: 5px;
+}
+
+.box{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.catalogueImage:hover .box{
+	transform: rotateY(180deg);
+}
+
+.front, .back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+}
+
+.front{
+	color: black;
+}
+
+.back{
+	background-color: #1e2b1e;
+	color: white;
+	transform: rotateY(180deg);
+}
+
+.back h1{
+	margin: 10%;
+}
+
+button{
+	margin-top: 10%;
+	width: 50%;
+	height: 10%;
+	background-color: #f2cbb1;
+	font-family: 'Poiret One', cursive;
+}
+
+#tellonBlanco{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/tellonBlanco.jpg");
+	background-repeat: no-repeat;
+}
+
+#sauvignonBlanc{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/sauvignonBlanc.jpg");
+	background-repeat: no-repeat;
+}
+
+#cheninBlanc{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/cheninBlanc.jpg");
+	background-repeat: no-repeat;
+}
+
+#chardonnay{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/chardonnay.jpg");
+	background-repeat: no-repeat;
+}
+
+#pinotBlanc{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/pinotBlanc.jpg");
+	background-repeat: no-repeat;
+}
+
+#pinotNoir{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/pinotNoir.jpg");
+	background-repeat: no-repeat;
+}
+
+#cabernetSauvignon{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/cabernetSauvignon.jpg");
+	background-repeat: no-repeat;
+}
+
+#merlot{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/merlot.jpg");
+	background-repeat: no-repeat;
+}
+
+.text{
+	float: left;
+	width: 60%;
+	font-size: 40px;
+}
+
+.text3{
+	float: right;
+	text-align: center;
+	width: 60%;
+	font-size: 40px;
+	color: white;
+}
+
+.white{
+	color: white;
+}
+
+.align_center{
+	text-align: center;
+}
+
+.txtLeft{
+	text-align: left;
+}
+
+.blur{
+	background-color: rgba(0,0,0,0.2);
+}
+
+.right{
+	float: right;
+}
+
+.alignContent{
+	align-items: center;
+}
+
+#image1{
+	width: 38%;
+	float: right;
+	height: 350px;
+	background-position: center;
+	background-image: url("../images/image1.jpg");
+	border: 3px solid #5e3f2a;
+	background-repeat: no-repeat;
+}
+
+#image2{
+	width: 38%;
+	float: right;
+	height: 350px;
+	background-position: right;
+	background-image: url("../images/image2.jpg");
+	border: 3px solid #5e3f2a;
+	background-repeat: no-repeat;
+}
+
+#image3{
+	width: 38%;
+	float: right;
+	height: 350px;
+	background-position: center;
+	background-image: url("../images/image3.jpg");
+	border: 3px solid #5e3f2a;
+	background-repeat: no-repeat;
+}
+
+#image4{
+	width: 38%;
+	float: right;
+	height: 350px;
+	background-position: center;
+	background-image: url("../images/cellar.jpg");
+	border: 3px solid #5e3f2a;
+	background-repeat: no-repeat;
+}
+
+#image5{
+	width: 38%;
+	float: left;
+	height: 350px;
+	background-position: top;
+	background-image: url("../images/wine.jpg");
+	border: 3px solid #5e3f2a;
+	background-repeat: no-repeat;
+}
+
+#location{
+	width: 38%;
+	height: 350px;
+	border: 3px solid #5e3f2a;
+}
+
+#centerContent{
+	width: 100%;
+	height: 625px;
+	float: left;
+	text-align: center;
+}
+
+#centerImage{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/cover.jpg");
+	background-position: center;
+	float: left;
+	text-align: center;
+}
+
+[arrowIcon]::before {
+    font-weight: normal;
+    content: attr(arrowIcon);
+}
+
+.scrollDownArrow {
+	background-image: url("../images/arrow.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.scrollDownArrow-link {
+  	cursor:pointer;
+	height: 60px;
+	width: 80px;
+	margin: 0px 0 20px -40px;
+	left: 50%;
+	line-height: 60px;
+	position: absolute;
+	bottom: 0px;
+	color: #0d0c0c;
+	text-align: center;
+	z-index: 100;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+	animation: scrollDownArrow_fade_move_down 2s ease-in-out infinite;
+}
+
+@keyframes scrollDownArrow_fade_move_down {
+  0%{
+  	transform: translate(0,-20px); opacity: 0; 
+}
+  50%{
+  	opacity: 1; 
+}
+  100%{
+  	transform: translate(0,20px); opacity: 0;
+}
+}
+
+#title{
+	margin-top: 200px;
+	color: #1d301d;
+	font-size: 120px;
+}
+
+#footer{
+	width: 100%;
+	height: auto;
+	background-color: #1e2b1e;
+	overflow: hidden;
+}
+
+#newsletter{
+	color: white;
+	width: 30%;
+	height: auto;
+	float: left;
+	padding: 15px;
+	font-weight: bold;
+
+}
+
+#newsletterForm{
+	width: 100%;
+	height: auto;
+
+}
+
+#newsletter input[type="email"]{
+	width: 60%;
+	height: 20px;
+	margin-top: 30px;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	border: none;
+}
+
+#newsletter input[type="submit"]{
+	width: 20%;
+	height: 25px;
+	margin: 15px 0px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 18px;
+	border: 2px solid white;
+	color: white;
+	background-color: #1e2b1e;
+}
+
+#newsletter input[type="submit"]:hover{
+	opacity: 0.8;
+}
+
+#a{
+	padding: 0px;
+	margin: 0px;
+}
+
+.socials{
+	width: 40%;
+	height: auto;
+	float: right;
+}
+
+.socialsItem{
+	width: 100%;
+	display: inline-block;
+}	
+
+.socials h2{
+	float: right;
+	color: white;
+	margin: 15px;
+}
+
+#author{
+	width: 250px;
+	height: 350px;
+	float: right;
+}
+
+dt{
+	margin-top: 20px;
+}
+
+dd{
+	padding-left: 60px;
+}
