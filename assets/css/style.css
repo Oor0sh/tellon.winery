@@ -228,6 +228,10 @@ nav{
 	padding: 0px;
 }
 
+.back a:hover{
+	color: #1e2b1e;
+}
+
 .back h1{
 	margin: 10%;
 }
