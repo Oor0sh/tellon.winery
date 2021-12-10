@@ -192,6 +192,11 @@ nav{
 	margin: 5px;
 }
 
+.box a{
+	color: black;
+	margin: 0px;
+}
+
 .box{
 	position: relative;
 	width: 100%;
@@ -245,11 +250,6 @@ button{
 	margin: 0px auto;
 	margin-top: 30px;
 	font-size: 30px;
-}
-
-#formWrapper a{
-	color: black;
-	margin: 0px;
 }
 
 #formWrapper h1{
