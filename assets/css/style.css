@@ -222,6 +222,10 @@ nav{
 	transform: rotateY(180deg);
 }
 
+.back button{
+	height: 20px;
+}
+
 .back a{
 	color: black;
 	margin: 0px;
