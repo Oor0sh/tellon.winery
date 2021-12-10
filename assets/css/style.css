@@ -192,11 +192,6 @@ nav{
 	margin: 5px;
 }
 
-.box a{
-	color: black;
-	margin: 0px;
-}
-
 .box{
 	position: relative;
 	width: 100%;
@@ -225,6 +220,12 @@ nav{
 	background-color: #1e2b1e;
 	color: white;
 	transform: rotateY(180deg);
+}
+
+.back a{
+	color: black;
+	margin: 0px;
+	padding: 0px;
 }
 
 .back h1{
